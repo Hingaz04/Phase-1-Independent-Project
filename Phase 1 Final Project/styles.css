@@ -1,0 +1,106 @@
+body{
+  background-image:url("photos/1261725039.jpg.jpg");
+  background-size: cover;
+  color: aliceblue;
+  font-family:"Audiowide", sans-serif;
+}
+
+#title{
+  font-size:30px;
+  color: red;
+}
+
+h1{
+  color:aliceblue;
+  font-family:"Audiowide", sans-serif;
+  font-size: 80px;
+  margin-left: 20px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#page{
+  display: flex;
+  color:red;
+/* margin-left: 80%;*/
+}
+#page li{
+  margin-right: 40px;
+}
+#page li:hover{
+ transition: 0.02s;
+ cursor: pointer;
+ color: aliceblue;
+}
+
+
+
+h2{
+  color: red;
+}
+
+#btn{
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color:red;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family:"Audiowide", sans-serif;
+}
+#btn:hover{
+  background-color:aqua;
+  transition: 0.5s;
+  cursor:pointer;
+  
+}
+
+#game-poster{
+  width:50%;
+  height:auto;
+  border-radius: 50px;
+}
+
+#match-date{
+  color:red;
+}
+
+#time{
+  color:red;
+}
+
+#match-venue{
+  color:red;
+}
+
+#capacity{
+  color: red;
+}
+
+#available-tickets{
+  color:red;
+}
+
+#matchday9{
+  font-size: 20px;
+}
+
+
+.match-item:hover{
+ color:red;
+ transition: 0.5s;
+ cursor:pointer;
+}
+
+#social-media{
+  color: aqua;
+  font-size: 30px;
+}
+#social-media:hover{
+ color: aliceblue;
+ cursor: pointer;
+ transition: 0.5s;
+}
+ 
+
+
