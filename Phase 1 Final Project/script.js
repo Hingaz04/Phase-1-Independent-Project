@@ -65,7 +65,7 @@ function matchDay9List(matches){
     })
     .catch((error) => console.error("Error fetching match details", error));
   });
-  matchList.appendChild(matchItem)
+  matchList.appendChild(matchItem);
  })
 }
 
